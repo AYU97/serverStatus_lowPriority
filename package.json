@@ -1,0 +1,17 @@
+{
+  "name": "serverstatus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "env-cmd -f ./.env node src/app.js",
+    "test": "env-cmd -f ./.env node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}
